@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
   form.addEventListener("submit", function(event) {
     event.preventDefault();
     const newTask = document.createElement("li");
-    newTask.innerHTML = newtask.value;
+    newTask.innerHTML = newtaskfield.value;
     taskList.appendChild(newTask);
     event.target.reset();
   };
